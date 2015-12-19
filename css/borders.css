@@ -1,0 +1,30 @@
+.topic-avatar,
+.topic-body,
+.small-action,
+#topic-closing-info,
+.topic-list.categories,
+.posts-wrapper > div > .post-cloak:last-child > .topic-post > article > .row
+{
+    border: none;
+}
+.topic-list > tbody > tr,
+.posts-wrapper > div > .post-cloak > .topic-post > article > .row {
+    border-bottom: 1px solid #111111;
+}
+//Category Split CSS
+//add space between categories
+.topic-list.categories{  
+      border-spacing: 0 1em;
+      border-collapse: separate;
+      border-top: 2px solid #202020;
+}
+.topic-list>tbody>tr:first-of-type {
+  border-top: 3px solid #069;
+}
+aside.quote .title, blockquote {
+    border-left-color: #069;
+}
+.nav-pills>li.active>a, .nav-pills>li>a.active,
+.nav-pills>li>a:hover {
+  border-bottom: 3px solid #069;
+}

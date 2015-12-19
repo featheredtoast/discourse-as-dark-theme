@@ -1,0 +1,27 @@
+//most button and nav bar items get a border radius
+.nav-pills li a, button, .action-list, .controls ul li a,
+.icons li a,
+.user-main .about .details,
+.btn
+{
+    border-radius: 3px;
+}
+
+//breadcrumb is made of two distinct a elements, border-radius the edges
+.category-breadcrumb li .badge-category {
+    border-radius: 3px 0px 0px 3px;
+}
+.category-breadcrumb li .category-dropdown-button {
+    border-radius: 0px 3px 3px 0px;
+}
+
+//user page bottom border radius
+.user-main .about .secondary{
+    border-radius: 0px 0px 3px 3px;
+}
+.topic-list.categories>tbody>tr>td:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.topic-list.categories>tbody>tr>td:last-child {
+    border-radius: 0 3px 3px 0;
+}

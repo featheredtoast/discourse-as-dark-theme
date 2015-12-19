@@ -1,0 +1,7 @@
+#reply-control
+{
+    background-color: #404040;
+}
+.topic-list>tbody>tr, .topic-post{
+    background-color: #333333;
+}

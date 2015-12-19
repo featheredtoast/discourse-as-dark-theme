@@ -1,0 +1,16 @@
+.topic-list.categories th, .topic-list.categories td {
+    padding: 0 15px 0 15px;
+}
+.topic-list.categories .has-description td.category {
+    padding-top: 20px;
+}
+//add some padding to posts so that avatars are not on the side
+.topic-avatar
+{
+    padding-left: 8px;
+}
+.small-action
+{
+    margin-left: 8px;
+    padding-bottom: 8px;
+}

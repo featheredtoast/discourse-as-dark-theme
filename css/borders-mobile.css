@@ -1,0 +1,12 @@
+.topic-post {
+    border-top: 1px solid #202020;
+}
+.topic-list>tbody>tr:nth-child(odd), .topic-list>tbody>tr:nth-child(even), .topic-post{
+    border-bottom: 1px solid #202020;
+}
+#topic-footer-buttons, .small-action {
+    border: none;
+}
+.topic-list > tbody > tr:first-of-type {
+    border-top: 3px solid #069;
+}
