@@ -10,6 +10,6 @@
 .topic-list > tbody > tr:first-of-type {
     border-top: 3px solid #069;
 }
-.topic-list {
-    border-style: separate;
+.category-list-item.category > .topic-list > tr {
+    border: 0px;
 }
