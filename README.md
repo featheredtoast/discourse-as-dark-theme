@@ -2,9 +2,7 @@
 
 This is my theme for [Discourse](http://www.discourse.org/).
 
-The matching 'basic' color section is here:
-
-## Overridden values
+## Overridden basic color values
 * primary: `efefef`
 * secondary: `202020`
 * tertiary: `6a86bb`
