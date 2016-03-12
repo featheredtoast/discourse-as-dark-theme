@@ -16,3 +16,6 @@
 .topic-list.categories > tbody > tr > td > div > .clearfix {
     height: 0px;
 }
+#list-area {
+    margin-bottom: 0px;
+}
