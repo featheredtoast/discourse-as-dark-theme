@@ -6,7 +6,7 @@
 #reply-control,
 select,
 .topic-list>tbody>tr>td,
-.posts-wrapper, .small-action,
+.posts-wrapper
 {
     background-color: #333333;
 }
@@ -33,6 +33,7 @@ aside.quote .title, blockquote {
 staff counter background is by default white to match default background color
 change background color to black to match, change text color to white
 */
+.small-action,
 .uploaded-image-preview,
 .deleted-posts,
 .user-main .staff-counters,
@@ -43,3 +44,12 @@ change background color to black to match, change text color to white
   background-color: #202020;
 }
 
+body .coldmap-high {
+    color: #04C2BF !important;
+}
+body .coldmap-med {
+    color: #37BFBD !important;
+}
+body .coldmap-low {
+    color: #77BFBE !important;
+}

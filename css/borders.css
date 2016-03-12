@@ -1,15 +1,16 @@
+.small-action,
 .topic-avatar,
 .topic-body,
-.small-action,
+.topic-post,
 #topic-closing-info,
 .topic-list.categories,
-.posts-wrapper > div > .post-cloak:last-child > .topic-post > article > .row
+.posts-wrapper > div > .post-cloak:last-child > .topic-post > article > .row,
 {
     border: none;
 }
 .topic-list > tbody > tr,
-.posts-wrapper > div > .post-cloak > .topic-post > article > .row {
-    border-bottom: 1px solid #111111;
+.topic-post > article > .row {
+    border-bottom: 1px solid #202020;
 }
 //Category Split CSS
 //add space between categories
@@ -27,4 +28,8 @@ aside.quote .title, blockquote {
 .nav-pills>li.active>a, .nav-pills>li>a.active,
 .nav-pills>li>a:hover {
   border-bottom: 3px solid #069;
+}
+.spinner {
+    border:3px solid #069;
+    border-right-color: transparent;
 }

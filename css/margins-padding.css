@@ -11,6 +11,5 @@
 }
 .small-action
 {
-    margin-left: 8px;
-    padding-bottom: 8px;
+    max-width: none;
 }
