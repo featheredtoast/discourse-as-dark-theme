@@ -13,3 +13,6 @@
 {
     max-width: none;
 }
+.topic-list.categories > tbody > tr > td > div > .clearfix {
+    height: 0px;
+}

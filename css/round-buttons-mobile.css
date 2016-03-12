@@ -3,3 +3,7 @@
 {
     border-radius: 3px;
 }
+.category-list-item {
+    border-right: 1px transparent;
+    border-radius: 3px;
+}
