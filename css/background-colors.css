@@ -1,12 +1,11 @@
 //not black backgrounds are back for not backgroundy things.
 .has-description, .no-description, 
-.topic-post, .topic-list-item,
 .user-main .about .secondary,
 .user-right .user-stream .item,
 #reply-control,
 select,
 .topic-list>tbody>tr>td,
-.posts-wrapper
+.topic-body
 {
     background-color: #333333;
 }
@@ -33,7 +32,6 @@ aside.quote .title, blockquote {
 staff counter background is by default white to match default background color
 change background color to black to match, change text color to white
 */
-.small-action,
 .uploaded-image-preview,
 .deleted-posts,
 .user-main .staff-counters,

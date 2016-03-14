@@ -2,9 +2,14 @@
 .nav-pills li a, button, .action-list, .controls ul li a,
 .icons li a,
 .user-main .about .details,
-.btn
+.btn,
+#topic-progress-wrapper
 {
     border-radius: 3px;
+}
+.topic-body
+{
+    border-radius: 6px;
 }
 
 //breadcrumb is made of two distinct a elements, border-radius the edges

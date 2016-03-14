@@ -4,3 +4,12 @@
 #list-area {
     margin-bottom: 0px;
 }
+.topic-avatar
+{
+    padding-left: 10px;
+}
+.topic-body{
+    margin-top: -6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

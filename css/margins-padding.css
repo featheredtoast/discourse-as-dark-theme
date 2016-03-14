@@ -7,15 +7,20 @@
 //add some padding to posts so that avatars are not on the side
 .topic-avatar
 {
-    padding-left: 8px;
+    padding-right: 10px;
 }
-.small-action
-{
-    max-width: none;
+.topic-body{
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 65%;
 }
 .topic-list.categories > tbody > tr > td > div > .clearfix {
     height: 0px;
 }
 #list-area {
     margin-bottom: 0px;
+}
+.small-action {
+    padding-left: 56px;
 }

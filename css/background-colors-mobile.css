@@ -3,6 +3,6 @@
     background-color: #404040;
 }
 .category-list-item.category,
-.topic-list>tbody>tr, .topic-post{
+.topic-list>tbody>tr, .topic-body{
     background-color: #333333;
 }

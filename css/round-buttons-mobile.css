@@ -1,5 +1,6 @@
 .btn,
-.nav-pills>li
+.nav-pills>li,
+.topic-body
 {
     border-radius: 3px;
 }
