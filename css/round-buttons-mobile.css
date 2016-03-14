@@ -1,6 +1,9 @@
 .btn,
 .nav-pills>li,
-.topic-body
+.topic-body,
+#topic-progress-wrapper,
+#topic-progress,
+#topic-progress .bg
 {
     border-radius: 3px;
 }
