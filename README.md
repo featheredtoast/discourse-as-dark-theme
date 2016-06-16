@@ -16,6 +16,9 @@ This is my theme for [Discourse](http://www.discourse.org/).
 ![Colors](/screenshots/colors.png?raw=true "Colors")
 
 Categories as pills
-![Category Pills](/screenshots/categories.png?raw=true "Category Pills")
+![Category Pills](/screenshots/categories.jpg?raw=true "Category Pills")
+
+Topic view
+![Topic View](/screenshots/topics.jpg?raw=true "Topic View")
 
 Heavily influenced/forked from Alankrit Choudhary's [dark material design](https://meta.discourse.org/t/dark-material-design/36531).
