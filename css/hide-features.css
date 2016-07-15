@@ -1,4 +1,0 @@
-//turn suggested topics off and composer popup annoyances
-.ember-view > #suggested-topics, .composer-popup-container{
-    display:none;
-}
