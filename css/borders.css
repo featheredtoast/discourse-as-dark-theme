@@ -3,21 +3,14 @@
 .topic-body,
 .topic-post,
 #topic-closing-info,
-.topic-list.categories,
 .posts-wrapper > div > .post-cloak:last-child > .topic-post > article > .row,
 {
     border: none;
 }
 .topic-list > tbody > tr,
-.topic-post > article > .row {
+.topic-post > article > .row,
+.category-list tbody tr{
     border-bottom: 1px solid #202020;
-}
-//Category Split CSS
-//add space between categories
-.topic-list.categories{  
-      border-spacing: 0 8px;
-      border-collapse: separate;
-      border-top: 2px solid #202020;
 }
 .topic-list>tbody>tr:first-of-type,
 .category-list tbody tr:first-of-type {

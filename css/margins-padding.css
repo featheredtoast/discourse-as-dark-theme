@@ -1,21 +1,17 @@
-.topic-list.categories th, .topic-list.categories td {
-    padding: 0 15px 0 15px;
-}
-.topic-list.categories .has-description td.category {
-    padding-top: 20px;
-}
 //add some padding to posts so that avatars are not on the side
 .topic-avatar
 {
     padding-right: 10px;
 }
-.topic-body{
+.topic-body
+{
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
 }
-.topic-list.categories > tbody > tr > td > div > .clearfix {
-    height: 0px;
+.more-topics .btn.pull-right
+{
+    margin-right: 20px;
 }
 #list-area {
     margin-bottom: 0px;
