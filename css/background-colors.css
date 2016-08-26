@@ -4,6 +4,7 @@
 .user-right .user-stream .item,
 #reply-control,
 select,
+.topic-list td,
 .topic-list>tbody>tr>td,
 .topic-body
 {
@@ -14,7 +15,9 @@ select,
     color: #efefef;
 }
 .topic-list:not(.categories)>thead>tr>th,
-aside.quote .title, blockquote {
+aside.quote .title, blockquote,
+.category-list>thead
+{
     background-color: #292929;
 }
 #create-topic:hover,
