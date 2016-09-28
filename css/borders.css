@@ -31,8 +31,6 @@ aside.quote .title, blockquote {
     border-bottom: 1px solid #046;
 }
 .topic-list .topic-list-item-separator td span {
-    background-color: #202020;
-    color: #fefefe;
-    border: 1px solid #069;
-    border-radius: 4px;
+    background-color: #333333;
+    color: #999;
 }
