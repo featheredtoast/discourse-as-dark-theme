@@ -19,3 +19,10 @@ blockquote {
     border:3px solid #069;
     border-right-color: transparent;
 }
+.topic-list .topic-list-item-separator td {
+    border-bottom: 1px solid #046;
+}
+.topic-list .topic-list-item-separator td span {
+    background-color: #333333;
+    color: #999;
+}
