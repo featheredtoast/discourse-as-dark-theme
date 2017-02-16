@@ -1,5 +1,5 @@
 //not black backgrounds are back for not backgroundy things.
-.has-description, .no-description, 
+.has-description, .no-description,
 .user-main .about .secondary,
 .user-right .user-stream .item,
 #reply-control,
@@ -16,7 +16,8 @@ select,
 }
 .topic-list:not(.categories)>thead>tr>th,
 aside.quote .title, blockquote,
-.category-list>thead
+.category-list>thead,
+.quote aside .quote, .quote aside .title, .quote aside blockquote, .quote aside .onebox, .quote aside .onebox-result
 {
     background-color: #292929;
 }

@@ -16,7 +16,8 @@
 .category-list tbody tr:first-of-type {
   border-top: 3px solid #069;
 }
-aside.quote .title, blockquote {
+aside.quote .title, blockquote,
+.quote aside .quote, .quote aside .title, .quote aside blockquote, .quote aside .onebox, .quote aside .onebox-result{
     border-left-color: #069;
 }
 .nav-pills>li.active>a, .nav-pills>li>a.active,
@@ -33,4 +34,7 @@ aside.quote .title, blockquote {
 .topic-list .topic-list-item-separator td span {
     background-color: #333333;
     color: #999;
+}
+#reply-control {
+    border-top: 1px solid #202020;
 }

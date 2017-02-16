@@ -12,7 +12,7 @@
 .category-list-item.category > .topic-list > tr {
     border: 0px;
 }
-blockquote {
+aside.quote .title, blockquote {
     border-left-color: #069;
 }
 .spinner {
