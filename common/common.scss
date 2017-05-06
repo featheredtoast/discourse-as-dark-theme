@@ -27,7 +27,7 @@ hilights
 */
 @keyframes background-fade-highlight {
     0% {
-        background-color: dark-light-diff($tertiary, $secondary, 85%, -65%); /* Pick a strong color, animation starts here */
+        background-color: #9f9f9f; /* Pick a strong color, animation starts here */
     }
 
     100% {
