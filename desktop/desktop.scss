@@ -1,0 +1,158 @@
+.user-main .staff-counters div a
+{
+    color: #efefef;
+}
+.topic-list:not(.categories)>thead>tr>th,
+aside.quote .title, blockquote,
+.category-list>thead,
+.quote aside .quote, .quote aside .title, .quote aside blockquote, .quote aside .onebox, .quote aside .onebox-result
+{
+    background-color: #292929;
+}
+#create-topic:hover,
+.topic-list .sortable:hover,
+.drop-down-visible .d-header .icons .active .icon,
+.d-header .icons .icon:hover {
+    color: #efefef;
+    background-color: #069;
+}
+
+//fade these elements to the background
+//Image preview in black rather than white for a less glaring experience
+//deleted posts count should match the 'danger' button text color.
+/*
+staff counter background is by default white to match default background color
+change background color to black to match, change text color to white
+*/
+.uploaded-image-preview,
+.deleted-posts,
+.user-main .staff-counters,
+.topic-list, .topic-list>tbody>tr,
+.nav-pills>li.active>a, .nav-pills>li>a.active,
+.nav-pills>li>a:hover {
+  color: #efefef;
+  background-color: #202020;
+}
+
+/**
+BOARDERS
+**/
+
+#topic-status-info {
+    border-top: none;
+}
+
+.small-action,
+.topic-avatar,
+.topic-body,
+.topic-post,
+#topic-closing-info,
+.posts-wrapper > div > .post-cloak:last-child > .topic-post > article > .row,
+{
+    border: none;
+}
+.topic-list > tbody > tr,
+.topic-post > article > .row,
+.category-list tbody tr{
+    border-bottom: 1px solid #202020;
+}
+.topic-list>tbody>tr:first-of-type,
+.category-list tbody tr:first-of-type {
+  border-top: 3px solid #069;
+}
+aside.quote .title, blockquote,
+.quote aside .quote, .quote aside .title, .quote aside blockquote, .quote aside .onebox, .quote aside .onebox-result{
+    border-left-color: #069;
+}
+.nav-pills>li.active>a, .nav-pills>li>a.active,
+.nav-pills>li>a:hover {
+  border-bottom: 3px solid #069;
+}
+.spinner {
+    border:3px solid #069;
+    border-right-color: transparent;
+}
+.topic-list .topic-list-item-separator td {
+    border-bottom: 1px solid #046;
+}
+.topic-list .topic-list-item-separator td span {
+    background-color: #333333;
+    color: #999;
+}
+
+/**
+Margins/Padding
+**/
+
+//add some padding to posts so that avatars are not on the side
+.topic-avatar
+{
+    padding-right: 10px;
+}
+.topic-body
+{
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.more-topics .btn.pull-right
+{
+    margin-right: 20px;
+}
+#list-area {
+    margin-bottom: 0px;
+}
+.small-action {
+    padding-left: 56px;
+}
+
+/**
+rounded button styles
+**/
+
+//most button and nav bar items get a border radius
+.nav-pills li a, button, .action-list, .controls ul li a,
+.icons li a,
+.user-main .about .details,
+.btn,
+#topic-progress-wrapper,
+#topic-progress,
+#topic-progress .bg
+{
+    border-radius: 3px;
+}
+.topic-body
+{
+    border-radius: 6px;
+}
+
+//breadcrumb is made of two distinct a elements, border-radius the edges
+.category-breadcrumb li .badge-category {
+    border-radius: 3px 0px 0px 3px;
+}
+.category-breadcrumb li .category-dropdown-button {
+    border-radius: 0px 3px 3px 0px;
+}
+
+//user page bottom border radius
+.user-main .about .secondary{
+    border-radius: 0px 0px 3px 3px;
+}
+.topic-list.categories>tbody>tr>td:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.topic-list.categories>tbody>tr>td:last-child {
+    border-radius: 0 3px 3px 0;
+}
+
+/*
+Shadow
+*/
+.topic-body,
+.topic-list.categories > tbody > tr,
+.topic-list:not(.categories)
+{
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+}

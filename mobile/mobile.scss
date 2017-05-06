@@ -26,3 +26,41 @@ aside.quote .title, blockquote {
     background-color: #333333;
     color: #999;
 }
+
+/**
+Margins/padding
+**/
+
+.category-list-item.category {
+    margin-bottom: 8px;
+}
+#list-area {
+    margin-bottom: 0px;
+}
+.topic-avatar
+{
+    padding-left: 10px;
+}
+.topic-body{
+    margin-top: -6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+Rounded buttons
+*/
+
+.btn,
+.nav-pills>li,
+.topic-body,
+#topic-progress-wrapper,
+#topic-progress,
+#topic-progress .bg
+{
+    border-radius: 3px;
+}
+.category-list-item {
+    border-right: 1px transparent;
+    border-radius: 3px;
+}
