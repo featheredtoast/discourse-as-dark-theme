@@ -1,5 +1,19 @@
 {
-  "name": "AS Dark",
-  "about_url": "https://github.com/featheredtoast/discourse-as-dark-theme",
-  "license_url": "https://github.com/featheredtoast/discourse-as-dark-theme/blob/master/LICENSE.txt"
+    "name": "AS Dark",
+    "about_url": "https://github.com/featheredtoast/discourse-as-dark-theme",
+    "license_url": "https://github.com/featheredtoast/discourse-as-dark-theme/blob/master/LICENSE.txt",
+    "color_schemes": {
+        "AS Dark": {
+            "primary": "efefef",
+            "secondary": "202020",
+            "tertiary": "6a86bb",
+            "quaternary": "069",
+            "header_background": "202020",
+            "header_primary": "069",
+            "highlight": "069",
+            "danger": "993200",
+            "success": "009900",
+            "love": "fa6c8d"
+        }
+    }
 }
